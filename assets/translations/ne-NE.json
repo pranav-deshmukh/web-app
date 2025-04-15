@@ -555,7 +555,6 @@
       "transaction_client": "transaction_client",
       "transaction_loan": "लेनदेन_लोन",
       "transaction_savings": "लेनदेन_बचत",
-      "xbrlmapping": "xbrlmapping",
       "CLIENT": "ग्राहक",
       "Loan": "ऋण",
       "Savings": "बचत",
@@ -786,7 +785,8 @@
       "required": "आवश्यक छ",
       "required and cannot be negative": "आवश्यक छ र नकारात्मक हुन सक्दैन",
       "should": "गर्नुपर्छ",
-      "on": "मा"
+      "on": "मा",
+      "Password validation": "पासवर्डमा कम्तिमा १२ क्यारेक्टरहरू हुनुपर्छ, जसमा १ अपरकेस, लोअरकेस र स्पेशल क्यारेक्टरहरू हुनुपर्छ र दोहोरिएका क्यारेक्टरहरू वा सेतो-स्पेसहरू समावेश हुनु हुँदैन।"
     },
     "heading": {
       "Account Linked Financial": "विभिन्न वित्तीय गतिविधिहरु संग जोडिएको खाताहरु को सूची। थप जान्नको लागि क्लिक गर्नुहोस्:",
@@ -1121,7 +1121,7 @@
       "Transferred To": "मा हस्तान्तरण गरियो",
       "Transferring From Details": "विवरणहरूबाट स्थानान्तरण गर्दै",
       "Tree View": "रूख दृश्य",
-      "Two-Factor Configuration": "दुई-कारक कन्फिगरेसन",
+      "Two-Factor Authentication": "दुई-कारक प्रमाणीकरण",
       "Unassign Role": "भूमिका अनअसाइन गर्नुहोस्",
       "Unassign Staff": "कर्मचारी नियुक्ति रद्द गर्नुहोस्",
       "Undo": "पूर्ववत गर्नुहोस्",
@@ -1958,6 +1958,7 @@
       "Number of Active Overdue Group Loans": "सक्रिय ओभरड्यू समूह ऋणहरूको संख्या",
       "Number of Centers": "केन्द्रहरूको संख्या",
       "Number of Clients": "ग्राहकहरूको संख्या",
+      "Number of Collaterals": "धितो संख्या",
       "Number of Days to Dormant sub-status": "निष्क्रिय उप-स्थितिमा दिनहरूको संख्या",
       "Number of Days to Escheat": "Escheat गर्न दिनहरूको संख्या",
       "Number of Days to Inactive sub-status": "निष्क्रिय उप-स्थितिमा दिनहरूको संख्या",
@@ -2251,6 +2252,7 @@
       "Show Closed Groups": "बन्द समूहहरू देखाउनुहोस्",
       "Show Payment Details": "भुक्तानी विवरणहरू देखाउनुहोस्",
       "Specific to Installment": "किस्ताको लागि विशिष्ट",
+      "Slab": "स्तर",
       "Staff": "कर्मचारी",
       "Standing Instruction": "स्थायी निर्देशन",
       "Standing Instruction Type": "स्थायी निर्देशन प्रकार",
@@ -2448,7 +2450,13 @@
       "INTEREST REFUND": "व्याज परतावा",
       "Supported Interest Refund Types": "समर्थित ब्याज फिर्ता प्रकारहरू",
       "SUPPORTED REFUND TRANSACTIONS FOR INTEREST REFUND": "समर्थित व्याज परतावा प्रकार",
-      "Charge-off reason": "चार्ज अफ कारण"
+      "Charge-off reason": "चार्ज अफ कारण",
+      "Password must contain at least one uppercase letter": "पासवर्डमा कम्तिमा एउटा ठूलो अक्षर हुनु पर्छ",
+      "Password must contain at least one number": "पासवर्डमा कम्तिमा एउटा नम्बर हुनुपर्छ",
+      "Password must have not consecutive repeating characters": "पासवर्डमा लगातार दोहोरिने क्यारेक्टरहरू हुनु हुँदैन",
+      "Password must contain at least one special character (@$!%*?&)": "पासवर्डमा कम्तिमा एउटा विशेष वर्ण हुनुपर्छ (@$!%*?&)",
+      "Password minimun length must be": "पासवर्ड न्यूनतम लम्बाइ हुनुपर्छ",
+      "Passwords do not match": "पासवर्डहरू मेल खाँदैनन्"
     },
     "links": {
       "Community": "समुदाय",
@@ -2574,8 +2582,7 @@
       "Apply Additional Shares": "अतिरिक्त लागू गर्नुहोस्",
       "Redeem Shares": "शेयरहरू रिडिम गर्नुहोस्",
       "Approve Additional Shares": "अतिरिक्त शेयरहरू स्वीकृत गर्नुहोस्",
-      "Reject Additional Shares": "अतिरिक्त शेयरहरू अस्वीकार गर्नुहोस्",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "अतिरिक्त शेयरहरू अस्वीकार गर्नुहोस्"
     },
     "placeholders": {
       "Add new server": "नयाँ सर्भर थप्नुहोस्",
@@ -3240,8 +3247,6 @@
       "Working Days": "काम गर्ने दिनहरू",
       "Working days and configure behaviour of payments": "कामका दिनहरू परिभाषित गर्नुहोस् र छुट्टिहरूमा हुने भुक्तानीहरूको व्यवहार कन्फिगर गर्नुहोस्",
       "Working days page allows you to define which days": "कामका दिनहरू पृष्ठले तपाईंलाई हप्ताको कुन दिनहरू काम गर्ने दिनहरू परिभाषित गर्न अनुमति दिन्छ।",
-      "XBRL": "XBRL",
-      "XBRL Report": "XBRL रिपोर्ट",
       "Your answer is": "तपाईको जवाफ छ",
       "by": "द्वारा",
       "do not match": "मिल्दैन",

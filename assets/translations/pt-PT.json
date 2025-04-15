@@ -555,7 +555,6 @@
       "transaction_client": "transação_cliente",
       "transaction_loan": "transação_empréstimo",
       "transaction_savings": "transação_economia",
-      "xbrlmapping": "xbrlmapping",
       "CLIENT": "CLIENTE",
       "Loan": "Empréstimo",
       "Savings": "Poupança",
@@ -786,7 +785,8 @@
       "required": "obrigatório",
       "required and cannot be negative": "obrigatório e não pode ser negativo",
       "should": "deve",
-      "on": "sobre"
+      "on": "sobre",
+      "Password validation": "A senha deve conter no mínimo {{minchar}} caracteres, que deve conter 1 letra maiúscula, minúscula e caractere especial e não deve consistir em caracteres repetidos ou espaços em branco"
     },
     "heading": {
       "Account Linked Financial": "Lista de contas vinculadas a diferentes atividades financeiras. Para saber mais clique:",
@@ -1121,7 +1121,7 @@
       "Transferred To": "Transferido para",
       "Transferring From Details": "Transferindo de detalhes",
       "Tree View": "Vista em árvore",
-      "Two-Factor Configuration": "Configuração de dois fatores",
+      "Two-Factor Authentication": "Autenticação de dois fatores",
       "Unassign Role": "Cancelar atribuição de função",
       "Unassign Staff": "Cancelar atribuição de equipe",
       "Undo": "Desfazer",
@@ -1958,6 +1958,7 @@
       "Number of Active Overdue Group Loans": "Número de empréstimos ativos do grupo vencidos",
       "Number of Centers": "Número de Centros",
       "Number of Clients": "Número de clientes",
+      "Number of Collaterals": "Número de garantias",
       "Number of Days to Dormant sub-status": "Número de dias até o substatus inativo",
       "Number of Days to Escheat": "Número de dias para escapar",
       "Number of Days to Inactive sub-status": "Número de dias até o substatus Inativo",
@@ -2250,6 +2251,7 @@
       "Show Closed Centers": "Mostrar Centros Fechados",
       "Show Closed Groups": "Mostrar grupos fechados",
       "Show Payment Details": "Mostrar detalhes de pagamento",
+      "Slab": "Faixa",
       "Specific to Installment": "Específico para parcelamento",
       "Staff": "Funcionários",
       "Standing Instruction": "Instrução Permanente",
@@ -2448,7 +2450,13 @@
       "INTEREST REFUND": "REEMBOLSO DE JUROS",
       "Supported Interest Refund Types": "Tipos de reembolso de juros suportados",
       "SUPPORTED REFUND TRANSACTIONS FOR INTEREST REFUND": "Tipos de reembolso de juros suportados",
-      "Charge-off reason": "Motivo da cobrança"
+      "Charge-off reason": "Motivo da cobrança",
+      "Password must contain at least one uppercase letter": "A senha deve conter pelo menos uma letra maiúscula",
+      "Password must contain at least one number": "A senha deve conter pelo menos um número",
+      "Password must have not consecutive repeating characters": "A senha não deve conter caracteres repetidos consecutivos",
+      "Password must contain at least one special character (@$!%*?&)": "A senha deve conter pelo menos um caractere especial (@$!%*?&)",
+      "Password minimun length must be": "O comprimento mínimo da senha deve ser",
+      "Passwords do not match": "As senhas não coincidem"
     },
     "links": {
       "Community": "Comunidade",
@@ -2574,8 +2582,7 @@
       "Apply Additional Shares": "Aplicar Adicional",
       "Redeem Shares": "Resgatar Ações",
       "Approve Additional Shares": "Aprovar ações adicionais",
-      "Reject Additional Shares": "Rejeitar compartilhamentos adicionais",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "Rejeitar compartilhamentos adicionais"
     },
     "placeholders": {
       "Add new server": "Adicionar novo servidor",
@@ -3240,8 +3247,6 @@
       "Working Days": "Dias úteis",
       "Working days and configure behaviour of payments": "Definir dias úteis e configurar comportamento dos pagamentos devidos em feriados",
       "Working days page allows you to define which days": "A página dias úteis permite definir quais dias da semana são dias úteis.",
-      "XBRL": "XBRL",
-      "XBRL Report": "Relatório XBRL",
       "Your answer is": "Sua resposta é",
       "by": "por",
       "do not match": "não combina",

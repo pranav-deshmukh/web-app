@@ -555,7 +555,6 @@
       "transaction_client": "transaction_client",
       "transaction_loan": "transaction_prêt",
       "transaction_savings": "transaction_épargne",
-      "xbrlmapping": "xbrlmapping",
       "CLIENT": "CLIENT",
       "Loan": "Prêt",
       "Savings": "Des économies",
@@ -786,7 +785,8 @@
       "required": "requis",
       "required and cannot be negative": "obligatoire et ne peut pas être négatif",
       "should": "devrait",
-      "on": "sur"
+      "on": "sur",
+      "Password validation": "Le mot de passe doit contenir au minimum {{minchar}} caractères, dont 1 majuscule, 1 minuscule et un caractère spécial et ne doit pas être composé de caractères répétés ou d'espaces blancs."
     },
     "heading": {
       "Account Linked Financial": "Liste des comptes liés aux différentes activités financières. Pour en savoir plus cliquez :",
@@ -1121,7 +1121,7 @@
       "Transferred To": "Transféré à",
       "Transferring From Details": "Transfert depuis les détails",
       "Tree View": "Vue arborescente",
-      "Two-Factor Configuration": "Configuration à deux facteurs",
+      "Two-Factor Authentication": "Authentification à deux facteurs",
       "Unassign Role": "Annuler l'attribution d'un rôle",
       "Unassign Staff": "Annuler l'affectation du personnel",
       "Undo": "annuler",
@@ -1958,6 +1958,7 @@
       "Number of Active Overdue Group Loans": "Nombre de prêts collectifs actifs en souffrance",
       "Number of Centers": "Nombre de centres",
       "Number of Clients": "Nombre de clients",
+      "Number of Collaterals": "Nombre de garanties",
       "Number of Days to Dormant sub-status": "Nombre de jours avant le sous-statut de dormance",
       "Number of Days to Escheat": "Nombre de jours pour éviter",
       "Number of Days to Inactive sub-status": "Nombre de jours avant le sous-statut inactif",
@@ -2250,6 +2251,7 @@
       "Show Closed Centers": "Afficher les centres fermés",
       "Show Closed Groups": "Afficher les groupes fermés",
       "Show Payment Details": "Afficher les détails du paiement",
+      "Slab": "Tranche",
       "Specific to Installment": "Spécifique au versement",
       "Staff": "Personnel",
       "Standing Instruction": "Instruction permanente",
@@ -2448,7 +2450,13 @@
       "INTEREST REFUND": "REMBOURSEMENT DES INTÉRÊTS",
       "Supported Interest Refund Types": "Types de remboursement d'intérêts pris en charge",
       "SUPPORTED REFUND TRANSACTIONS FOR INTEREST REFUND": "Types de remboursement d'intérêts pris en charge",
-      "Charge-off reason": "Motif de la radiation"
+      "Charge-off reason": "Motif de la radiation",
+      "Password must contain at least one uppercase letter": "Le mot de passe doit contenir au moins une lettre majuscule",
+      "Password must contain at least one number": "Le mot de passe doit contenir au moins un chiffre",
+      "Password must have not consecutive repeating characters": "Le mot de passe ne doit pas contenir de caractères répétitifs consécutifs",
+      "Password must contain at least one special character (@$!%*?&)": "Le mot de passe doit contenir au moins un caractère spécial (@$!%*?&)",
+      "Password minimun length must be": "La longueur minimale du mot de passe doit être",
+      "Passwords do not match": "Les mots de passe ne correspondent pas"
     },
     "links": {
       "Community": "Communauté",
@@ -2574,8 +2582,7 @@
       "Apply Additional Shares": "Appliquer supplémentaire",
       "Redeem Shares": "Racheter des actions",
       "Approve Additional Shares": "Approuver des partages supplémentaires",
-      "Reject Additional Shares": "Rejeter les partages supplémentaires",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "Rejeter les partages supplémentaires"
     },
     "placeholders": {
       "Add new server": "Ajouter un nouveau serveur",
@@ -3239,8 +3246,6 @@
       "Working Days": "Jours de travail",
       "Working days and configure behaviour of payments": "Définir les jours ouvrables et configurer le comportement des paiements dus les jours fériés",
       "Working days page allows you to define which days": "La page Jours ouvrés vous permet de définir quels jours de la semaine sont ouvrés.",
-      "XBRL": "XBRL",
-      "XBRL Report": "Rapport XBRL",
       "Your answer is": "Votre réponse est",
       "by": "par",
       "do not match": "ne correspondent pas",

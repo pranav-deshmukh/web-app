@@ -555,7 +555,6 @@
       "transaction_client": "transaction_client",
       "transaction_loan": "거래_대출",
       "transaction_savings": "거래_저축",
-      "xbrlmapping": "xbrl매핑",
       "CLIENT": "고객",
       "Loan": "대출",
       "Savings": "저금",
@@ -786,7 +785,8 @@
       "required": "필수의",
       "required and cannot be negative": "필수이며 음수일 수 없습니다.",
       "should": "~해야 한다",
-      "on": "~에"
+      "on": "~에",
+      "Password validation": "비밀번호는 최소 자여야 하며 대문자, 소문자 및 특수 문자 1개가 포함되어야 하며 반복되는 문자나 공백으로 구성되어서는 안 됩니다."
     },
     "heading": {
       "Account Linked Financial": "다양한 금융 활동과 연결된 계정 목록입니다. 자세한 내용을 보려면 다음을 클릭하세요.",
@@ -1122,7 +1122,7 @@
       "Transferred To": "로 전송",
       "Transferring From Details": "세부정보에서 전송 중",
       "Tree View": "트리뷰",
-      "Two-Factor Configuration": "2단계 구성",
+      "Two-Factor Authentication": "2단계 입증",
       "Unassign Role": "역할 할당 해제",
       "Unassign Staff": "직원 할당 해제",
       "Undo": "실행 취소",
@@ -1959,6 +1959,7 @@
       "Number of Active Overdue Group Loans": "활성 연체단체대출 건수",
       "Number of Centers": "센터 수",
       "Number of Clients": "클라이언트 수",
+      "Number of Collaterals": "담보 건수",
       "Number of Days to Dormant sub-status": "휴면 하위 상태까지의 일수",
       "Number of Days to Escheat": "탈퇴까지 남은 일수",
       "Number of Days to Inactive sub-status": "비활성 하위 상태까지 남은 일수",
@@ -2251,6 +2252,7 @@
       "Show Closed Centers": "닫힌 센터 표시",
       "Show Closed Groups": "닫힌 그룹 표시",
       "Show Payment Details": "결제 세부정보 표시",
+      "Slab": "구간",
       "Specific to Installment": "할부에만 해당",
       "Staff": "직원",
       "Standing Instruction": "상임지도",
@@ -2449,7 +2451,13 @@
       "INTEREST REFUND": "이자환급",
       "Supported Interest Refund Types": "지원되는 이자 환불 유형",
       "SUPPORTED REFUND TRANSACTIONS FOR INTEREST REFUND": "지원되는 이자 환불 유형",
-      "Charge-off reason": "청구 취소 사유"
+      "Charge-off reason": "청구 취소 사유",
+      "Password must contain at least one uppercase letter": "비밀번호에는 대문자가 하나 이상 포함되어야 합니다.",
+      "Password must contain at least one number": "비밀번호에는 숫자가 하나 이상 포함되어야 합니다.",
+      "Password must have not consecutive repeating characters": "비밀번호에는 연속된 반복 문자가 없어야 합니다.",
+      "Password must contain at least one special character (@$!%*?&)": "비밀번호에는 특수 문자가 하나 이상 포함되어야 합니다. (@$!%*?&)",
+      "Password minimun length must be": "비밀번호의 최소 길이는 다음과 같아야 합니다.",
+      "Passwords do not match": "비밀번호가 일치하지 않습니다."
     },
     "links": {
       "Community": "지역 사회",
@@ -2574,8 +2582,7 @@
       "Apply Additional Shares": "추가 신청",
       "Redeem Shares": "주식 상환",
       "Approve Additional Shares": "추가 공유 승인",
-      "Reject Additional Shares": "추가 공유 거부",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "추가 공유 거부"
     },
     "placeholders": {
       "Add new server": "새 서버 추가",
@@ -3240,8 +3247,6 @@
       "Working Days": "일하는 날",
       "Working days and configure behaviour of payments": "영업일 정의 및 휴일 지급 방식 구성",
       "Working days page allows you to define which days": "근무일 페이지에서는 어느 요일이 근무일인지 정의할 수 있습니다.",
-      "XBRL": "XBRL",
-      "XBRL Report": "XBRL 보고서",
       "Your answer is": "당신의 대답은",
       "by": "~에 의해",
       "do not match": "일치하지 않는",

@@ -557,7 +557,6 @@
       "transaction_client": "transaction_client",
       "transaction_loan": "transaction_loan",
       "transaction_savings": "transaction_savings",
-      "xbrlmapping": "xbrlmapping",
       "Loan": "Loan",
       "Savings": "Savings",
       "Shares": "Shares",
@@ -776,7 +775,7 @@
       "is": "is",
       "Is": "is",
       "is required": "is required",
-      "pass is required": "is required(min length 8)",
+      "pass is required": "is required(min length 12)",
       "least one uppercase": "least one uppercase",
       "lowercase and special character": "lowercase and special character",
       "must be": "must be",
@@ -790,7 +789,8 @@
       "required": "required",
       "required and cannot be negative": "required and cannot be negative",
       "should": "should",
-      "on": "on"
+      "on": "on",
+      "Password validation": "Password should contain minimum {{minchar}} characters, that should income 1 uppercase, lowercase and special character and should not consists of repeated characters or white-spaces"
     },
     "heading": {
       "Account Linked Financial": "List of accounts linked to different financial activities. To know more click:",
@@ -1125,7 +1125,7 @@
       "Transferred To": "Transferred To",
       "Transferring From Details": "Transferring From Details",
       "Tree View": "Tree View",
-      "Two-Factor Configuration": "Two-Factor Configuration",
+      "Two-Factor Authentication": "Two-Factor Authentication",
       "Unassign Role": "Unassign Role",
       "Unassign Staff": "Unassign Staff",
       "Undo": "Undo",
@@ -1963,6 +1963,7 @@
       "Number of Active Overdue Group Loans": "Number of Active Overdue Group Loans",
       "Number of Centers": "Number of Centers",
       "Number of Clients": "Number of Clients",
+      "Number of Collaterals": "Number Of Collaterals",
       "Number of Days to Dormant sub-status": "Number of Days to Dormant sub-status",
       "Number of Days to Escheat": "Number of Days to Escheat",
       "Number of Days to Inactive sub-status": "Number of Days to Inactive sub-status",
@@ -2257,6 +2258,7 @@
       "Show Closed Centers": "Show Closed Centers",
       "Show Closed Groups": "Show Closed Groups",
       "Show Payment Details": "Show Payment Details",
+      "Slab": "Slab",
       "Specific to Installment": "Specific to Installment",
       "Staff": "Staff",
       "Standing Instruction": "Standing Instruction",
@@ -2455,7 +2457,13 @@
       "INTEREST REFUND": "INTEREST REFUND",
       "Supported Interest Refund Types": "Supported Interest Refund Types",
       "SUPPORTED REFUND TRANSACTIONS FOR INTEREST REFUND": "Supported interest refund types",
-      "Charge-off reason": "Charge-off reason"
+      "Charge-off reason": "Charge-off reason",
+      "Password must contain at least one uppercase letter": "Password must contain at least one uppercase letter",
+      "Password must contain at least one number": "Password must contain at least one number",
+      "Password must have not consecutive repeating characters": "Password must have not consecutive repeating characters",
+      "Password must contain at least one special character (@$!%*?&)": "Password must contain at least one special character (@$!%*?&)",
+      "Password minimun length must be": "Password minimun length must be",
+      "Passwords do not match": "Passwords do not match"
     },
     "links": {
       "Community": "Community",
@@ -2582,8 +2590,7 @@
       "Apply Additional Shares": "Apply Additional Shares",
       "Redeem Shares": "Redeem Shares",
       "Approve Additional Shares": "Approve Additional Shares",
-      "Reject Additional Shares": "Reject Additional Shares",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "Reject Additional Shares"
     },
     "placeholders": {
       "Add new server": "Add new server",
@@ -3345,8 +3352,6 @@
       "Working Days": "Working Days",
       "Working days and configure behaviour of payments": "Define working days and configure behaviour of payments due on holidays",
       "Working days page allows you to define which days": "Working days page allows you to define which days of the week are working days.",
-      "XBRL": "XBRL",
-      "XBRL Report": "XBRL Report",
       "Your answer is": "Your answer is",
       "by": "by",
       "do not match": "do not match",
