@@ -555,7 +555,6 @@
       "transaction_client": "transaction_client",
       "transaction_loan": "거래_대출",
       "transaction_savings": "거래_저축",
-      "xbrlmapping": "xbrl매핑",
       "CLIENT": "고객",
       "Loan": "대출",
       "Savings": "저금",
@@ -786,7 +785,8 @@
       "required": "필수의",
       "required and cannot be negative": "필수이며 음수일 수 없습니다.",
       "should": "~해야 한다",
-      "on": "~에"
+      "on": "~에",
+      "Password validation": "비밀번호는 최소 자여야 하며 대문자, 소문자 및 특수 문자 1개가 포함되어야 하며 반복되는 문자나 공백으로 구성되어서는 안 됩니다."
     },
     "heading": {
       "Account Linked Financial": "다양한 금융 활동과 연결된 계정 목록입니다. 자세한 내용을 보려면 다음을 클릭하세요.",
@@ -2582,8 +2582,7 @@
       "Apply Additional Shares": "추가 신청",
       "Redeem Shares": "주식 상환",
       "Approve Additional Shares": "추가 공유 승인",
-      "Reject Additional Shares": "추가 공유 거부",
-      "XBRL": "XBRL"
+      "Reject Additional Shares": "추가 공유 거부"
     },
     "placeholders": {
       "Add new server": "새 서버 추가",
@@ -3248,8 +3247,6 @@
       "Working Days": "일하는 날",
       "Working days and configure behaviour of payments": "영업일 정의 및 휴일 지급 방식 구성",
       "Working days page allows you to define which days": "근무일 페이지에서는 어느 요일이 근무일인지 정의할 수 있습니다.",
-      "XBRL": "XBRL",
-      "XBRL Report": "XBRL 보고서",
       "Your answer is": "당신의 대답은",
       "by": "~에 의해",
       "do not match": "일치하지 않는",
