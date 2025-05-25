@@ -61,3 +61,14 @@ div {
   max-width: 400px !important;
   white-space: pre-line !important;
 }
+
+.loading {
+  position: absolute;
+  min-width: 100%;
+  width: 100px;
+  height: 12px;
+  background: linear-gradient(125deg, rgb(255 255 255), $status-approved, rgb(255 255 255));
+  animation:
+    grow 4s linear infinite,
+    move 4s linear infinite;
+}
